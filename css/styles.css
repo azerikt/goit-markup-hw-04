@@ -126,9 +126,14 @@ body {
 }
 /* ------ Filter ------ */
 .filter {
+  justify-content: center;
+  margin-top: 100px;
+  display: flex;
   list-style-type: none;
 }
 .filter-buttom {
+  padding: 6px 22px 6px 22px;
+  margin-right: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -143,6 +148,9 @@ body {
   letter-spacing: 0.03em;
   list-style-type: none;
 }
+.filter:last-child {
+  margin-right: 0px;
+}
 .filter-buttom:hover,
 .filter-buttom:focus {
   background: var(--acent-color);
@@ -150,11 +158,15 @@ body {
 }
 /* ------ Boxes ------ */
 .portfolio {
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 50px;
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
 }
 .portfolio-h3 {
+  padding: 20px 24px 4px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -162,10 +174,25 @@ body {
   color: var(--main-text-color);
 }
 .portfolio-p {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.portfolio-item {
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.portfolio li:nth-child(3n) {
+  padding-right: 0px;
+}
+.portfolio-descr {
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 /* ----- Order -----*/
 .order {
