@@ -47,6 +47,9 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+header {
+  border-bottom: 1px solid #ececec;
+}
 .header-list {
   display: flex;
 }
@@ -158,6 +161,7 @@ body {
 }
 /* ------ Boxes ------ */
 .portfolio {
+  padding: 0px;
   flex-wrap: wrap;
   display: flex;
   margin-top: 50px;
@@ -183,16 +187,16 @@ body {
   color: #757575;
 }
 .portfolio-item {
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-.portfolio li:nth-child(3n) {
-  padding-right: 0px;
-}
-.portfolio-descr {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.portfolio li:nth-child(3n) {
+  margin-right: 0px;
+}
+.portfolio-descr {
 }
 /* ----- Order -----*/
 .order {
@@ -335,6 +339,7 @@ button {
 }
 /* ------ Footer ------ */
 .footer {
+  padding: 0px;
   height: 252px;
   display: flex;
   flex-direction: column;
@@ -366,6 +371,9 @@ button {
   text-decoration: none;
 }
 .footer-logo {
+  margin: 0px;
+  width: 145px;
+  height: 31px;
   margin-top: 60px;
   margin-bottom: 20px;
   color: var(--acent-color);
