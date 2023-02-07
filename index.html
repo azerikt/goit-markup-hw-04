@@ -17,12 +17,12 @@
     <title>Studio</title>
   </head>
   <body>
-    <header class="header container">
+    <header class="header">
       <div class="header-list container">
         <a href="index.html" class="logo-top"
           >Web<span class="logo-black">Studio</span></a
         >
-        <nav class="navigation container">
+        <nav class="navigation">
           <ul class="nav-bar">
             <li>
               <a href="index.html" class="nav-list link current">Agencja</a>
@@ -33,7 +33,7 @@
             <li><a href="#" class="nav-list link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="contact-top container">
+        <ul class="contact-top">
           <li>
             <a class="link list-contact" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -49,53 +49,49 @@
     </header>
     <main>
       <section class="order">
-        <h1 class="container">
-          <span class="order-words container"
-            >EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</span
-          >
-        </h1>
-        <button class="order-buttom container" type="button">
-          Zamów usługe
-        </button>
+        <div class="container">
+          <h1 class="order-words">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+
+          <button class="order-buttom" type="button">Zamów usługe</button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="visually-hidden">Lorem ipsum</h2>
+          <ul class="lorem">
+            <li class="lorem-item">
+              <h3 class="lorem-h3">Lorem ipsum</h3>
+              <p class="lorem-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="lorem-item">
+              <h3 class="lorem-h3">Lorem ipsum</h3>
+              <p class="lorem-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="lorem-item">
+              <h3 class="lorem-h3">Lorem ipsum</h3>
+              <p class="lorem-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="lorem-item">
+              <h3 class="lorem-h3">Lorem ipsum</h3>
+              <p class="lorem-descr">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="container">
-        <h2 class="visually-hidden">Lorem ipsum</h2>
-        <ul class="lorem section">
-          <li class="lorem-item">
-            <h3 class="lorem-h3">Lorem ipsum</h3>
-            <p class="lorem-descr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed
-              non adipisci accusantium. Eligendi est dolorum ipsum beatae
-              tenetur pariatur. Asperiores, suscipit.
-            </p>
-          </li>
-          <li class="lorem-item">
-            <h3 class="lorem-h3">Lorem ipsum</h3>
-            <p class="lorem-descr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed
-              non adipisci accusantium. Eligendi est dolorum ipsum beatae
-              tenetur pariatur. Asperiores, suscipit.
-            </p>
-          </li>
-          <li class="lorem-item">
-            <h3 class="lorem-h3">Lorem ipsum</h3>
-            <p class="lorem-descr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed
-              non adipisci accusantium. Eligendi est dolorum ipsum beatae
-              tenetur pariatur. Asperiores, suscipit.
-            </p>
-          </li>
-          <li class="lorem-item">
-            <h3 class="lorem-h3">Lorem ipsum</h3>
-            <p class="lorem-descr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed
-              non adipisci accusantium. Eligendi est dolorum ipsum beatae
-              tenetur pariatur. Asperiores, suscipit.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="offer container">
         <h2 class="offer-h2">Czym się zajmujemy</h2>
         <ul class="offer-list">
           <li class="offer-item">
@@ -113,24 +109,32 @@
         <h2 class="teams-h2">Nasz zespół</h2>
         <ul class="teams container">
           <li class="team-item">
-            <img src="images/man1.jpg" alt="John Doe" width="270" />
-            <h3 class="team-h3">John Doe</h3>
-            <p class="teams-p">Product Designer</p>
+            <div>
+              <img src="images/man1.jpg" alt="John Doe" width="270" />
+              <h3 class="team-h3">John Doe</h3>
+              <p class="teams-p">Product Designer</p>
+            </div>
           </li>
           <li class="team-item">
             <img src="images/woman1.jpg" alt="John Doe" width="270" />
-            <h3 class="team-h3">John Doe</h3>
-            <p class="teams-p">Frontend Developer</p>
+            <div>
+              <h3 class="team-h3">John Doe</h3>
+              <p class="teams-p">Frontend Developer</p>
+            </div>
           </li>
           <li class="team-item">
             <img src="images/man2.jpg" alt="John Doe" width="270" />
-            <h3 class="team-h3">John Doe</h3>
-            <p class="teams-p">Marketing</p>
+            <div>
+              <h3 class="team-h3">John Doe</h3>
+              <p class="teams-p">Marketing</p>
+            </div>
           </li>
           <li class="team-item">
             <img src="images/man3.jpg" alt="John Doe" width="270" />
-            <h3 class="team-h3">John Doe</h3>
-            <p class="teams-p">UI Designer</p>
+            <div>
+              <h3 class="team-h3">John Doe</h3>
+              <p class="teams-p">UI Designer</p>
+            </div>
           </li>
         </ul>
       </section>
