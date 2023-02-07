@@ -201,6 +201,7 @@ header {
   flex-wrap: wrap;
   display: flex;
   margin-top: 50px;
+  gap: 30px;
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
@@ -226,8 +227,8 @@ header {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   border-bottom: 1px solid #eee;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin: auto;
+  gap: 30px;
 }
 .portfolio li:nth-child(3n) {
   margin-right: 0px;
@@ -364,6 +365,7 @@ button {
 }
 /* ------ Footer ------ */
 .footer {
+  margin-top: 94px;
   padding: 0px;
   height: 252px;
   display: flex;
