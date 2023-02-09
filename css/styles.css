@@ -42,13 +42,6 @@ img {
 }
 ul,
 ol {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  list-style-type: none;
-  color: var(--owner-text-color);
   list-style: none;
   padding-left: 0;
   margin: 0;
@@ -57,9 +50,6 @@ a {
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 address {
   margin-top: 30px;
@@ -120,9 +110,9 @@ header {
 }
 
 /* ------ hover navigation top ------ */
-.link {
+/*.link {
   text-decoration: none;
-}
+}*/
 .current {
   color: var(--acent-color);
 }
@@ -171,7 +161,7 @@ header {
   display: flex;
 }
 .filter-buttom {
-  padding: 6px 22px 6px 22px;
+  padding: 6px 25px 6px 25px;
   margin-right: 8px;
   font-family: "Roboto";
   font-style: normal;
@@ -274,6 +264,7 @@ button {
 }
 /* ----- Lorem ----- */
 .lorem {
+  color: var(--main-text-color);
   list-style-type: none;
   display: flex;
   gap: 30px;
@@ -294,6 +285,9 @@ button {
   letter-spacing: 0.03em;
 }
 /* ----- About ----- */
+.work {
+  padding-top: 0px;
+}
 .offer-list {
   display: flex;
   list-style-type: none;
@@ -332,6 +326,7 @@ button {
   line-height: 1.18;
 }
 .team-h3 {
+  color: var(--main-text-color);
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -353,7 +348,7 @@ button {
   background-color: #2f303a;
   padding: 60px 0;
 }
-.contact-bottom:last-child {
+.footer-styles:last-child {
   margin-bottom: 0px;
 }
 .footer-address {
@@ -366,7 +361,11 @@ button {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-styles {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .footer-logo {
   margin-bottom: 20px;
